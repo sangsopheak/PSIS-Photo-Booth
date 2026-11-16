@@ -248,7 +248,7 @@ export default function App() {
   return <div className="app-shell">
     <header className="topbar">
       <a className="brand" href="#top">
-        <span className="brand-emblem"><img src="/logo-psis.webp" alt="Paññāsāstra International School seal" /></span>
+        <span className="brand-emblem"><img src={`${import.meta.env.BASE_URL}logo-psis.webp`} alt="Paññāsāstra International School seal" /></span>
         <span className="brand-wordmark"><strong>PSIS</strong><small>PHOTO BOOTH</small></span>
         <span className="brand-divider" />
         <span className="brand-caption">Paññāsāstra International School</span>
